@@ -3,9 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Preparing static website files for deployment..."
+      - echo "Grabbing all website files from the main directory..."
 
 artifacts:
   files:
     - '**/*'
-  base-directory:'main
+  base-directory: main
+
